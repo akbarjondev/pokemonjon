@@ -40,7 +40,7 @@ for(var i = 0; i < pokemons.length; i++) {
 
 		// data id
 		var elDataId = this.attributes['data-id'].value;
-		
+
 		// pokemon information
 		elCardHeader.textContent = pokemons[elDataId].name;
 		elCardImage.src = '';
